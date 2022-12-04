@@ -1,0 +1,33 @@
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 7px;
+    box-sizing: border-box;
+}
+
+.todo-item span {
+    margin-left: 10px;
+    user-select: none;
+}
+
+.todo-item button {
+    display: none;
+    height: 25px;
+    width: 40px;
+    background-color: #e45b46;
+    color: #fff;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-item:hover {
+    background-color: #dcdcdc;
+}
+
+.todo-item:hover button {
+    display: block;
+}
